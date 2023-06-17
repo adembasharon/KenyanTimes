@@ -1,0 +1,18 @@
+.studiocontainer{
+    display: flex;
+    align-items: center;
+    color: #f7AB0A;
+gap: .3em;
+}
+
+.studiolink{
+    color: #f7AB0A;
+    text-decoration: none !important;
+
+}
+.studioicon{
+    height: 26px;
+    width: 26px;
+    color:#f7AB0A ;
+
+}
