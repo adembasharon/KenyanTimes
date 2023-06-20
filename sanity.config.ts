@@ -10,7 +10,7 @@ import { defineConfig } from 'sanity'
 import {apiVersion, dataset, projectId} from './sanity/env'
 import {schema} from './sanity/schema'
 import { myTheme } from './theme'
-import Logo from './Components/studionavbar/logo/logo'
+import Logo from './Components/logo/logo'
 
 export default defineConfig({
   basePath: '/studio',
@@ -33,5 +33,5 @@ export default defineConfig({
     visionTool({defaultApiVersion: apiVersion}),
   ],
  
-  theme:myTheme
+  theme:myTheme,
 })

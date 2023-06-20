@@ -1,0 +1,80 @@
+.maincontainer{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+.headerContainer{
+    background-color: #036AC8;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+.subContainer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+.headerContainer h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.headermenu{
+    display: flex;
+    align-items: center;
+    padding: .4em;
+    gap: 2em;
+
+}
+.searchInput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: white;
+    padding: 1em 15em 1em 1em;
+    border-radius: 4px;
+}
+.searchInput input{
+    border: none;
+    outline: none;
+    padding: 1em 1em 1em 7em ;
+}
+.searchIcon{
+    cursor: pointer;
+}
+.headeraccount{
+    display: flex;
+    align-items: center;
+    gap: .3em;
+}
+.loginLink{
+    font-size: 1.5rem;
+cursor: pointer;
+}
+.account{
+        font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+.listItems{
+    background-color:#2883D8;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+.ListContent{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    color: #fff;
+    font-size: 1.5rem;
+}
