@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "./studionavbar.module.css"
+import styles from "./studionavbar.module.css";
 import {ArrowUturnLeftIcon} from "@heroicons/react/24/solid";
 
 function StudioNavbar(props:any){
