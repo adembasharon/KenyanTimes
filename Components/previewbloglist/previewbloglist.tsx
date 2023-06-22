@@ -1,6 +1,6 @@
 "use client"
- import {usePreview} from "../../lib/sanity.preview"
-import BlogList from "./BlogList"
+import { usePreview } from "../../sanity/lib/sanity.prieview";
+import BlogList from "../BlogList";
 
 type props={
     query: string;

@@ -1,9 +1,10 @@
 // import { PreviewData } from "next/headers";
+// import { PreviewData } from "next/headers";
 import { PreviewData } from "next/headers";
 import { groq } from "next-sanity";
 import { client } from "../../sanity/lib/client";
-import Previewsuspence from "../../Components/previewsuspensecomponent/previewsuspence"
 import Previewbloglist from "../../Components/previewbloglist/previewbloglist";
+import  PreviewSuspense from "../../Components/previewsuspensecomponent/Previewsuspence";
 import BlogList from "../../Components/BlogList";
 
 const query=groq`
@@ -20,11 +21,11 @@ export default async function Homepage(){
         return(
             <div>
 
-            <Previewsuspence fallback={(
+            <PreviewSuspense fallback={(
                 <p>Loading preview Data....</p>
             )}>
 <Previewbloglist query={query}/>
-            </Previewsuspence>
+            </PreviewSuspense>
 
         </div>
         )

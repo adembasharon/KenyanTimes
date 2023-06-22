@@ -4,6 +4,7 @@ type props={
 };
 
 function BlogList({posts}:props){
+    console.log(posts.length);
     return(
         <div>BlogList</div>
     )
